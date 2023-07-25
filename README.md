@@ -1,21 +1,12 @@
-MIT License
+You can build a real-time chat application in Node.js using Express, Mongoose, and Socket.io¹. Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside the browser¹. The most important advantage of using Node is that we can use JavaScript as both a front-end and back-end language¹. You can install Node.js from their official website⁵.
 
-Copyright (c) 2023 Pushpak rai
+To start building the chat application, you can create a new project directory and move into it. Then you can initiate your project by running the command `npm init`¹. This will prompt you to enter details about your project. After this, a `package.json` file will be created¹.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You can then install the required dependencies such as Express, Mongoose, and Socket.io by running the command `npm install --save express mongoose socket.io`¹. You can then start building your chat application using these libraries. You can find more detailed instructions on how to build a real-time chat application in Node.js in this tutorial¹.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Source: Conversation with Bing, 25/7/2023
+(1) How to build a real time chat application in Node.js using Express .... https://www.freecodecamp.org/news/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804/.
+(2) https://nodejs.org/en/download.
+(3) Real-Time Chat Application Using Socket.io in Node.js. https://medium.com/swlh/real-time-chat-application-using-socket-io-in-node-js-37806e98918c.
+(4) Building a Chat Application Using Node.js | PubNub. https://www.pubnub.com/blog/building-chat-application-using-node-js/.
+(5) Real-Time Chat Application - C# Corner. https://www.c-sharpcorner.com/article/real-time-chat-application/.
