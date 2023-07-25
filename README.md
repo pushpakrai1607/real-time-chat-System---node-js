@@ -6,7 +6,11 @@ You can then install the required dependencies such as Express, Mongoose, and So
 
 Source: Conversation with Bing, 25/7/2023
 (1) How to build a real time chat application in Node.js using Express .... https://www.freecodecamp.org/news/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804/.
+
 (2) https://nodejs.org/en/download.
+
 (3) Real-Time Chat Application Using Socket.io in Node.js. https://medium.com/swlh/real-time-chat-application-using-socket-io-in-node-js-37806e98918c.
+
 (4) Building a Chat Application Using Node.js | PubNub. https://www.pubnub.com/blog/building-chat-application-using-node-js/.
+
 (5) Real-Time Chat Application - C# Corner. https://www.c-sharpcorner.com/article/real-time-chat-application/.
