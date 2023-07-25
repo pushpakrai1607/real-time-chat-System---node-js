@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="css/style.css" />
+		<title>WebCage Chat App</title>
+	</head>
+	<body>
+		
+<!-- header  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <div class="container">		
+
+      <a class="navbar-brand" href="#">WebCage</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#webcage">Webcage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#end">Footer</a>
+          </li>
+       
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+ 
+<!-- header end  -->
+
+		<div class="join-container" id="webcage" style="margin-top: 200px;">
+			<header class="join-header">
+				<h1>
+					<img src="https://www.shutterstock.com/image-vector/chat-icon-logo-template-600w-779557519.jpg" alt="s" height="50" width="50"> WebCage </h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html" >
+          <div class="form-control">
+						<label for="email">Email Address</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Enter email address..."
+							required
+						/>
+					</div>
+
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							minlength="3"
+							maxlength="15"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Chat Channel</label>
+						<select name="room" id="room">
+							<option value="Business">Business </option>
+							<option value="Technology">Technology</option>
+							<option value="Sport">Sports</option>
+							<option value="news">International News</option>
+							<option value="cats">Just Cats</option>
+						</select>
+					</div>
+          <div class="flex">
+            <button type="submit" class="btns">Login to Chat</button>
+          </div>
+				</form>
+			</main>
+		</div>
+		       <!-- footer  -->
+			   <footer class="bg-dark text-white text-center footer" id="end">
+				<div class="">
+	
+					<div class="text-center  p-3" style="color: rgb(255, 255, 255);">
+						© 2023 Copyright:
+						<a class="text-white" href="#">Webcage.com</a>
+					</div>
+				</div>
+			   
+			  </footer>
+	<!-- footer end  -->
+
+	<!-- bootstrap js 000 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+	</body>
+</html>
